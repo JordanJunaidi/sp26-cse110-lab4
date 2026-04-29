@@ -29,3 +29,34 @@
     C. `student.greeting()`
     D. `student['Favorite Teacher'].name`
     E. `student.courseLoad[0]`
+
+13. A. Output: `32`. The integer 2 maps to its exact string representation, resulting in the string '32'
+    B. Output: `1`. The string `3` gets converted into the integer value 3
+    C. Output: `3`. null gets represented as 0
+    D. Output: `'3null'`. null gets represented by its string representation 'null'
+    E. Output: `4`. true has a value of 1
+    F. Output: `0`. false and null both have values of 0
+    G. Output: `'3undefined'`. undefined gets representated by its string representation 'undefined'
+    H. Output: `NaN`. undefined cannot be represented as a number, so substraction is not possible
+
+14. A. Output: `true`. The integer value of 2 is greater than 1
+    B. Output: `false`. '12' comes before '2' in alphabetical order, so the right inequality is `'2'>'12'`
+    C. Output: `true`. The '2' gets converted into an integer, and 2 == 2.
+    D. Output: `false`. The === operator also checks types, but 2 and '2' are not the same type so it is false
+    E. Output: `false`. True has a value of 1, and 1 != 2.
+    F. Output: `true`. Positive integers are considered true, and true == true is true.
+
+15. The == operator checks values. If the types are mismatched, the operator will convert the types to make them match first. On the other hand, the === operator checks if 2 things are exactly the same, including their types.
+
+16. Output: `[2, 4, 6]`. The input array starts as `[1, 2, 3]`. Then, `newArr` is initialized as an empty array. The for loop iterates through all the elements in the input array, and calls the `doSomething` function on each element. The `doSomething` function multiplies the value by 2. Then, the `modifyArray` function pushes the new value from `doSomething` into `newArr`, which is then returned at the end.
+
+17. Output:
+
+```
+1
+4
+3
+2
+```
+
+1 and 4 get printed as the code is run, then 3 after its timeout of 0, then 2 after the timeout of 1 second.
